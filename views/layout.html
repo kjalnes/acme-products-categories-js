@@ -1,0 +1,19 @@
+<html>
+  <head>
+    <title> {{ title }} </title>
+    <link rel="stylesheet" href="/vendor/bootstrap/dist/css/bootstrap.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>ACME</h1>
+      <ul class="nav nav-tabs">
+        <li><a href="/">Home</a></li>
+        <li><a href="/categories">Categories</a></li>
+      </ul>
+      <div class='row'>
+        {% block content %}
+        {% endblock %}
+      </div> <!--end div .row-->
+    </div>
+  </body>
+</html>
