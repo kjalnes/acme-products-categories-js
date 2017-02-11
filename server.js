@@ -32,5 +32,5 @@ app.use('/categories', categoryRoutes);
 
 const port = process.env.PORT || 3001
 app.listen(port, function(){
-    console.log('listening on port ' + port);
+    console.log('listening on port ' + port);//use back ticks
 });
