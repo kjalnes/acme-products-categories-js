@@ -1,3 +1,4 @@
+//how about some ES6
 var _categoryCollection = [
     {
       "id" : 1,
