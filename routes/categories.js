@@ -1,6 +1,8 @@
 const router = require('express').Router();
 const db = require('../db');
 
+//use ES6
+
 // - GET /categories
 router.get('/', function(req, res, next) {
    var categories = db.getCategories();
